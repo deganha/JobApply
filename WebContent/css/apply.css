@@ -1,0 +1,19 @@
+body {
+    background-color: #EAF5FB;
+}
+
+.row-bottom-align {
+    font-size: 0;
+}
+.row-bottom-align > * {
+    float: none;
+    display: inline-block;
+    font-size: 46px;
+}
+.row-bottom-align > *:last-child {
+    vertical-align: bottom;
+}
+
+.no-padding {
+	padding-bottom: 0px;
+}
