@@ -7,9 +7,8 @@ public class Constants {
 	public static final int MOBILE = 3;
 	public static final int GENERICO = 4;
 
-	public static final boolean SUCCESS = true;
-	public static final boolean ERROR = false;
-
+	public static final String SUCCESS = "sucesso";
+	public static final String ERROR = "erro";
 	public static final String SUBJECT = "Obrigado por se candidatar";
 	public static final String TEXT_START = "Obrigado por se candidatar, assim que tivermos uma vaga disponível para programador ";
 	public static final String TEXT_END = "entraremos em contato.";
