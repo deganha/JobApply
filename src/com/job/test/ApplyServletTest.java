@@ -24,9 +24,12 @@ public class ApplyServletTest extends TestCase {
         when(request.getParameter("name")).thenReturn("jonatha");
         when(request.getParameter("email")).thenReturn("jonatha.schmitz@gmail.com");
         when(request.getParameter("html")).thenReturn("9");
+        when(request.getParameter("css")).thenReturn("6");
         when(request.getParameter("javascript")).thenReturn("9");
         when(request.getParameter("python")).thenReturn("9");
+        when(request.getParameter("django")).thenReturn("4");
         when(request.getParameter("ios")).thenReturn("9");
+        when(request.getParameter("android")).thenReturn("7");
         
         StringWriter sw = new StringWriter();
         

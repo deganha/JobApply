@@ -1,4 +1,5 @@
 const SUCCESS_HEADER = "Sucesso!";
+const SUCCESS_FEEDBACK = "sucesso";
 const SUCCESS_BODY = "Cadastro efetuado com sucesso!";
 const ERROR_HEADER = "Erro!";
 const ERROR_BODY = "Desculpe, o servidor parece estar com problemas. Tente novamente mais tarde";
@@ -30,7 +31,7 @@ createApplicant = function() {
 }
 
 isMobile = function() {	
-	return ($('.device-sm').is(':visible') || $('.device-xs').is(':visible'));
+	return ($('.device-xs').is(':visible'));
 }
 
 validateName = function(){
@@ -67,9 +68,9 @@ $("#btEnviar").click(function() {
 	applicant = createApplicant();
 	if (validateName() && validateEmail()) {
 		var $btn = $(this).button('loading');
-		$.post('ApplyServlet', applicant, function(success) {
+		$.post('ApplyServlet', applicant, function(feedback) {
 			$btn.button('reset');
-			if(success){
+			if(feedback == SUCCESS_FEEDBACK){
 				$('#modalTitle').text(SUCCESS_HEADER);
 				$('#modalBody').text(SUCCESS_BODY);
 				$('#myModal').modal('show');				
