@@ -431,30 +431,30 @@
     </div>
     
     <!-- VALIDATE MOBILE SIZE -->
-    <div class="device-xs visible-xs"></div>	
-	
-	<!-- MODAL FEEDBACK -->
-	<div class="modal fade" id="myModal">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h4 class="modal-title" id="modalTitle"></h4>
-	      </div>
-	      <div class="modal-body" id="modalBody">        
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-primary" data-dismiss="modal" id="btFecharModal">Fechar</button>       
-	      </div>
-	    </div>
-	  </div>
-	</div>
-	
-	<!-- PAGE FOOTER -->
-	<div id="footer">
-	  <div class="container">
-	    <p class="text-muted">Developed by <a target="_blank" href="https://br.linkedin.com/in/jonatha-moreno-schmitz-04567470">Jonatha Moreno Schmitz</a></p>
-	  </div>
-	</div>
+    <div class="device-xs visible-xs"></div>
+    
+    <!-- MODAL FEEDBACK -->
+    <div class="modal fade" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="modalTitle"></h4>
+          </div>
+          <div class="modal-body" id="modalBody">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" id="btFecharModal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- PAGE FOOTER -->
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted">Developed by <a target="_blank" href="https://br.linkedin.com/in/jonatha-moreno-schmitz-04567470">Jonatha Moreno Schmitz</a></p>
+      </div>
+    </div>
   </body>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
