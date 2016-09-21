@@ -430,6 +430,7 @@
       <button type="button" id="btEnviar" data-loading-text="Enviando..." class="btn btn-primary btn-lg col-xs-12 col-sm-3 col-md-2">Enviar</button>      
     </div>
     
+    <!-- VALIDATE MOBILE SIZE -->
     <div class="device-xs visible-xs"></div>	
 	
 	<!-- MODAL FEEDBACK -->
