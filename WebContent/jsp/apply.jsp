@@ -429,8 +429,10 @@
       </div>
       <button type="button" id="btEnviar" data-loading-text="Enviando..." class="btn btn-primary btn-lg col-xs-12 col-sm-3 col-md-2">Enviar</button>      
     </div>
+    
     <div class="device-xs visible-xs"></div>	
 	
+	<!-- MODAL FEEDBACK -->
 	<div class="modal fade" id="myModal">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
@@ -445,6 +447,8 @@
 	    </div>
 	  </div>
 	</div>
+	
+	<!-- PAGE FOOTER -->
 	<div id="footer">
 	  <div class="container">
 	    <p class="text-muted">Developed by <a target="_blank" href="https://br.linkedin.com/in/jonatha-moreno-schmitz-04567470">Jonatha Moreno Schmitz</a></p>
