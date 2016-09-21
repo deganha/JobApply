@@ -16,7 +16,7 @@
         <h1 class="no-padding col-lg-3 col-md-8 col-sm-7 col-xs-2" ><small>Jobs</small></h1>
       </div>
     </div>
-	<div class="container"><br>
+    <div class="container"><br>
       <div class="panel panel-info" id="applicantData">
         <div class="panel-heading"> 
           <div class="panel-title">
